@@ -10,7 +10,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "SceneAssignmentCopyThis.h"
 
 GLFWwindow* m_window;
 const unsigned char FPS = 60; // FPS of this game
@@ -133,12 +132,12 @@ void Application::Init()
 	}
 }
 
-#include "SceneA2EXAMPLECOPYTHISPLAGIARISM.h"
+#include "A2SceneLevel1.h"
 
 void Application::Run()
 {
 	//Main Loop
-	m_scene = new SceneA2EXAMPLECOPYTHISPLAGIARISM();
+	m_scene = new A2SceneLevel1();
 	//m_scene = new SceneQueen();
 	m_scene->Init();
 

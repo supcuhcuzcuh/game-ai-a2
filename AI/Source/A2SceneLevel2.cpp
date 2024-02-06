@@ -60,7 +60,7 @@ void A2SceneLevel2::OnMobTouchedPlayer()
 
 void A2SceneLevel2::Init()
 {
-    SceneA2BASESCENE::Init();
+    A2BaseScene::Init();
 
     // Load Textures
     grassTexture = LoadAnyKindOfImageAtAllFromTheImagesFolderInTheProjectFiles("Image/grass.png");
@@ -144,7 +144,7 @@ void A2SceneLevel2::Init()
 
 void A2SceneLevel2::Update(double deltaTime)
 {
-    SceneA2BASESCENE::Update(deltaTime);
+    A2BaseScene::Update(deltaTime);
 
     if (_world.tileToCoordinates(_world.getEntityLocation(_player)) == level1EndPoint)
     {
@@ -157,7 +157,7 @@ void A2SceneLevel2::Update(double deltaTime)
 
 void A2SceneLevel2::Render()
 {
-    SceneA2BASESCENE::Render();
+    A2BaseScene::Render();
 
     modelStack.PushMatrix();
     modelStack.Translate(0.5, 0.5,0);
@@ -176,7 +176,7 @@ void A2SceneLevel2::Render()
 
 void A2SceneLevel2::Exit()
 {
-    SceneA2BASESCENE::Exit();
+    A2BaseScene::Exit();
 }
 
 A2SceneLevel2::A2SceneLevel2()

@@ -1,7 +1,7 @@
 ﻿#pragma once
-#include "SceneA2BASESCENE.h"
+#include "A2BaseScene.h"
 
-class A2SceneLevel2 : public SceneA2BASESCENE
+class A2SceneLevel2 : public A2BaseScene
 {
 protected:
     bool PlayerLostDecision() override;

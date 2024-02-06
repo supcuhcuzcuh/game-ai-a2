@@ -41,43 +41,13 @@
     <ClCompile Include="Source\Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\PostOffice.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Entities\GenericProjectileEntity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Entities\GenericWanderEntity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Entities\NState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Entities\NSM.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Entity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\EntityButSmallerSize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Maze.cpp">
+    <ClCompile Include="Source\A2BaseScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Messages.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneA2BASESCENE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneA2EXAMPLECOPYTHISPLAGIARISM.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneAssignmentCopyThis.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Tracker.cpp">
+    <ClCompile Include="Source\A2SceneLevel1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\World.cpp">
@@ -142,46 +112,16 @@
     <ClInclude Include="Source\Message.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\csv.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Entities\GenericProjectileEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Entities\GenericWanderEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Entities\NState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Entities\NSM.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Entity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\EntityButSmallerSize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Maze.h">
+    <ClInclude Include="Source\A2BaseScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Messages.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneA2BASESCENE.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneA2EXAMPLECOPYTHISPLAGIARISM.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneAssignmentCopyThis.h">
+    <ClInclude Include="Source\A2SceneLevel1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\stb_image.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Tracker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\World.h">
